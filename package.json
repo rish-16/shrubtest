@@ -10,10 +10,12 @@
 	"categories": [
 		"Other"
 	],
-	"activationEvents": ["onCommand:catCoding.openExt"],
+	"activationEvents": [
+		"onCommand:catCoding.openExt"
+	],
 	"main": "./out/extension",
 	"contributes": {
-	"commands": [
+		"commands": [
 			{
 				"command": "catCoding.openExt",
 				"title": "Start new cat coding session",
