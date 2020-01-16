@@ -5,8 +5,8 @@
 <p>
 
 <p align="center">
-    <a href="https://github.com/rish-16/sight/blob/master/LICENSE">
-		<img alt="AUR license" src="https://img.shields.io/badge/License-Apache%202.0-yellow.svg">
+    <a href="https://www.gnu.org/licenses/gpl-3.0">
+		<img alt="AUR license" src="https://img.shields.io/badge/License-GPLv3-yellow.svg">
     </a>
 </p>
 
