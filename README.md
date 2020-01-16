@@ -1,6 +1,18 @@
-# shrub README
+<p align="center">
+    <br>
+	<img src="./assets/logo.png" width=200>
+    <br>
+<p>
 
-Shrub is an in-editor API testing suite that lets you experiment with endpoints by checking requests and responses.
+<p align="center">
+    <a href="https://github.com/rish-16/sight/blob/master/LICENSE">
+		<img alt="AUR license" src="https://img.shields.io/badge/License-Apache%202.0-yellow.svg">
+    </a>
+</p>
+
+<h3 align="center">
+<p>In-editor API testing suite for experimenting with requests and responses.</p>
+</h3>
 
 ## Features
 
@@ -15,17 +27,6 @@ For example if there is an image subfolder under your extension project workspac
 ## Requirements
 
 If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
 
 ## Known Issues
 
