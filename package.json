@@ -1,0 +1,42 @@
+{
+	"name": "shrub",
+	"displayName": "shrub",
+	"description": "in-editor API testing suite",
+	"publisher": "Rishabh Anand",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.41.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": ["onCommand:catCoding.openExt"],
+	"main": "./out/extension",
+	"contributes": {
+	"commands": [
+			{
+				"command": "catCoding.openExt",
+				"title": "Start new cat coding session",
+				"category": "Cat Coding"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -watch -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "npm run compile",
+		"test": "node ./src/test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.1",
+		"@types/mocha": "^5.2.7",
+		"@types/node": "^12.11.7",
+		"@types/vscode": "^1.41.0",
+		"glob": "^7.1.5",
+		"mocha": "^6.2.2",
+		"typescript": "^3.6.4",
+		"tslint": "^5.20.0",
+		"vscode-test": "^1.2.2"
+	}
+}
