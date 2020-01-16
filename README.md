@@ -11,7 +11,7 @@
 </p>
 
 <h3 align="center">
-<p>In-editor API testing suite for experimenting with requests and responses.</p>
+<p>In-editor API testing and experimentation suite</p>
 </h3>
 
 ## Features
